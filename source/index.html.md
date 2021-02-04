@@ -1,12 +1,11 @@
 ---
-title: API Reference
+title: SID9 API
 
 language_tabs: # must be one of https://git.io/vQNgJ
   - shell
 
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/slatedocs/slate'>Documentation Powered by IndoChat</a>
+  - <a href='#'>Powered by IndoChat</a>
 
 includes:
   - errors
@@ -55,7 +54,7 @@ content | true | SID9 code content (what you want in it)
 ```shell
 curl --location --request POST 'https://example.com/v1/SID9' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Basic ZGV2LWRldmVsb3BlcjpBMTIzNDU2Nzg=' \
+--header 'Authorization: Basic api_key' \
 --data-raw '{
 	"content":"test data"
 }'
